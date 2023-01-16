@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<TabPane fx:id="tabPane" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="ptf.si.rs.zadaca4.controllers.MainController">
+    <Tab fx:id="ticketsTableTab" text="Otvoreni tiketi">
+        <fx:include fx:id="ticketTable" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" source="ticket-table.fxml" />
+    </Tab>
+    <Tab fx:id="manageTicketTab" text="Upravljanje tiketima">
+        <fx:include fx:id="manageTicket" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" source="manage-ticket.fxml" />
+    </Tab>
+</TabPane>
